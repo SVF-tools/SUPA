@@ -52,7 +52,6 @@ set(SOURCES
     DDA/ContextDDA.cpp
     DDA/DDAClient.cpp
     DDA/DDAPass.cpp
-    DDA/DDAPathAllocator.cpp
     DDA/DDAStat.cpp
     DDA/FlowDDA.cpp
     DDA/PathDDA.cpp)
