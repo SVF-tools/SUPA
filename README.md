@@ -6,5 +6,7 @@
 
 3) Put CMakeLists.txt under `SVF/lib/`
 
-3) Build SUPA following https://github.com/SVF-tools/SVF/wiki/Setup-Guide-(CMake)
+4) Build SUPA following https://github.com/SVF-tools/SVF/wiki/Setup-Guide-(CMake)
+
+5) `dvf` as an executable for running SUPA.
 
