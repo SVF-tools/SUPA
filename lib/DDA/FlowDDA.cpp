@@ -14,7 +14,7 @@ using namespace llvm;
 using namespace std;
 using namespace analysisUtil;
 
-static cl::opt<unsigned long long> flowBudget("flowbg",  cl::init(ULONG_MAX - 1),
+static cl::opt<unsigned long long> flowBudget("flowbg",  cl::init(10000),
         cl::desc("Maximum step budget of flow-sensitive traversing"));
 
 /*!

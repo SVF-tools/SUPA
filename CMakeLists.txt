@@ -53,8 +53,7 @@ set(SOURCES
     DDA/DDAClient.cpp
     DDA/DDAPass.cpp
     DDA/DDAStat.cpp
-    DDA/FlowDDA.cpp
-    DDA/PathDDA.cpp)
+    DDA/FlowDDA.cpp)
 
 add_llvm_loadable_module(Svf ${SOURCES})
 add_llvm_Library(LLVMSvf ${SOURCES})

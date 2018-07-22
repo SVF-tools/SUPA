@@ -21,7 +21,7 @@ char DDAPass::ID = 0;
 static cl::opt<unsigned> maxPathLen("maxpath",  cl::init(100000),
                                     cl::desc("Maximum path limit for DDA"));
 
-static cl::opt<unsigned> maxContextLen("maxcxt",  cl::init(100000),
+static cl::opt<unsigned> maxContextLen("maxcxt",  cl::init(3),
                                        cl::desc("Maximum context limit for DDA"));
 
 static cl::opt<string> userInputQuery("query",  cl::init("all"),

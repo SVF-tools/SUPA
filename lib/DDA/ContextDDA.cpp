@@ -12,7 +12,7 @@
 
 using namespace llvm;
 
-static cl::opt<unsigned long long> cxtBudget("cxtbg",  cl::init(ULONG_MAX - 1),
+static cl::opt<unsigned long long> cxtBudget("cxtbg",  cl::init(10000),
         cl::desc("Maximum step budget of context-sensitive traversing"));
 /*!
  * Constructor
