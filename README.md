@@ -1,4 +1,4 @@
-# SUPA Value-flow-based demand-driven pointer analysis
+# SUPA: Value-flow-based demand-driven pointer analysis
 
 1) Download source code [SVF](https://github.com/SVF-tools/SVF)
 
