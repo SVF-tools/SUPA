@@ -14,7 +14,7 @@ cp CMakeLists.txt $SVF_HOME/lib
 ```
 4. Build SUPA following https://github.com/SVF-tools/SVF/wiki/Setup-Guide-(CMake)
 
-5. `bin/dvf` as an executable for running SUPA.
+5. Running SUPA with its executable `bin/dvf`
 
 * 5.1 Flow-sensitive SUPA (querying points-to values of all pointers in a program)
 ```
