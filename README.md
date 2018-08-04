@@ -27,7 +27,7 @@ dvf -cxt -query=funptr -maxcxt=3 -flowbg=10000 -cxtbg=10000 example.bc
 
 | Options       | Description           | 
 | ------------- |:-------------:|
-|-query | specify the set of queries for demand-driven analysis)|
+|-query | specify a set of queries for demand-driven analysis)|
 |-dfs | flow- and field-sensitive analysis |
 |-cxt | context-, flow- and field-sensitive analysis|
 |-flowbg | flow-sensitive analysis budget (number of value-flow edges traversal)|
