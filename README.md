@@ -42,7 +42,7 @@ dvf -cxt -query=funptr -maxcxt=3 -flowbg=10000 -cxtbg=10000 example.bc
 
 ### Refererences:
 
-Yulei Sui and Jingling Xue. [On-Demand Strong Update Analysis via Value-Flow Refinement](https://yuleisui.github.io/publications/fse16.pdf) Compiler Construction (FSE '16) 
+Yulei Sui and Jingling Xue. [On-Demand Strong Update Analysis via Value-Flow Refinement](https://yuleisui.github.io/publications/fse16.pdf) ACM SIGSOFT International Symposium on the Foundation of Software Engineering (FSE '16) 
 
 Yulei Sui, Ding Ye, and Jingling Xue. [Value-Flow-Based Demand-Driven Pointer Analysis for C and C++](https://yuleisui.github.io/publications/tse18.pdf) , IEEE Transactions on Software Engineering (TSE'18) 
 
