@@ -1,26 +1,23 @@
 # SUPA: Value-flow-based demand-driven pointer analysis
 
+The source code of SUPA now has been merged to SVF. You just need to copy the CMakeLists and rebuild SVF.
+
 1. Download source code [SVF](https://github.com/SVF-tools/SVF)
 
-2. Put `include`, `lib` and `tools` folders under the corresponding ones of SVF home directory
+2. Put CMakeLists.txt under `SVF/lib/`
 ```
-cp -r include $SVF_HOME
-cp -r lib $SVF_HOME
-cp -r tools $SVF_HOME
+cp SUPA/lib/CMakeLists.txt $SVF_HOME/lib
+cp SUPA/tools/CMakeLists.txt $SVF_HOME/tools
 ```
-3. Put CMakeLists.txt under `SVF/lib/`
-```
-cp CMakeLists.txt $SVF_HOME/lib
-```
-4. Build SUPA following https://github.com/SVF-tools/SVF/wiki/Setup-Guide-(CMake)
+3. Build SUPA following https://github.com/SVF-tools/SVF/wiki/Setup-Guide-(CMake)
 
-5. Running SUPA with its executable `bin/dvf`
+4. Running SUPA with its executable `bin/dvf`
 
-* 5.1 Flow-sensitive SUPA (querying points-to values of all pointers in a program)
+* 4.1 Flow-sensitive SUPA (querying points-to values of all pointers in a program)
 ```
 dvf -dfs -query=all -flowbg=10000 example.bc
 ```
-* 5.2 Flow- and context-sensitive SUPA (querying points-to values of all the function pointers in a program)
+* 4.2 Flow- and context-sensitive SUPA (querying points-to values of all the function pointers in a program)
 ```
 dvf -cxt -query=funptr -maxcxt=3 -flowbg=10000 -cxtbg=10000 example.bc
 ```
