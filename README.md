@@ -4,20 +4,15 @@ The source code of SUPA now has been merged to SVF. You just need to copy the CM
 
 1. Download source code [SVF](https://github.com/SVF-tools/SVF)
 
-2. Put CMakeLists.txt under `SVF/lib/`
-```
-cp SUPA/lib/CMakeLists.txt $SVF_HOME/lib
-cp SUPA/tools/CMakeLists.txt $SVF_HOME/tools
-```
-3. Build SUPA following https://github.com/SVF-tools/SVF/wiki/Setup-Guide-(CMake)
+2. Build SVF following https://github.com/SVF-tools/SVF/wiki/Setup-Guide-(CMake)
 
-4. Running SUPA with its executable `bin/dvf`
+3. Running SUPA with its executable `bin/dvf`
 
-* 4.1 Flow-sensitive SUPA (querying points-to values of all pointers in a program)
+* 3.1 Flow-sensitive SUPA (querying points-to values of all pointers in a program)
 ```
 dvf -dfs -query=all -flowbg=10000 example.bc
 ```
-* 4.2 Flow- and context-sensitive SUPA (querying points-to values of all the function pointers in a program)
+* 3.2 Flow- and context-sensitive SUPA (querying points-to values of all the function pointers in a program)
 ```
 dvf -cxt -query=funptr -maxcxt=3 -flowbg=10000 -cxtbg=10000 example.bc
 ```
