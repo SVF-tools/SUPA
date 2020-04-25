@@ -1,6 +1,6 @@
 # SUPA: Value-flow-based demand-driven pointer analysis
 
-The source code of SUPA now has been merged to SVF. You just need to copy the CMakeLists and rebuild SVF.
+The source code of SUPA now has been merged to SVF. 
 
 1. Download source code [SVF](https://github.com/SVF-tools/SVF)
 
