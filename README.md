@@ -4,7 +4,7 @@ The source code of SUPA now has been merged to SVF. You just need to copy the CM
 
 1. Download source code [SVF](https://github.com/SVF-tools/SVF)
 
-2. Build SVF following https://github.com/SVF-tools/SVF/wiki/Setup-Guide-(CMake)
+2. Build SVF following https://github.com/svf-tools/SVF/wiki/Setup-Guide#getting-started
 
 3. Running SUPA with its executable `bin/dvf`
 
