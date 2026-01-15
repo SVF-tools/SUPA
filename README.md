@@ -10,11 +10,11 @@ The source code of SUPA now has been merged to SVF.
 
 * 3.1 Flow-sensitive SUPA (querying points-to values of all pointers in a program)
 ```
-dvf -dfs -query=all -flowbg=10000 example.bc
+dvf -dfs -query=all -flow-bg=10000 example.bc
 ```
 * 3.2 Flow- and context-sensitive SUPA (querying points-to values of all the function pointers in a program)
 ```
-dvf -cxt -query=funptr -max-cxt=3 -flowbg=10000 -cxtbg=10000 example.bc
+dvf -cxt -query=funptr -max-cxt=3 -flow-bg=10000 -cxt-bg=10000 example.bc
 ```
 
 | Options       | Description           | 
@@ -22,8 +22,8 @@ dvf -cxt -query=funptr -max-cxt=3 -flowbg=10000 -cxtbg=10000 example.bc
 |-query | specify a set of queries for demand-driven analysis)|
 |-dfs | flow- and field-sensitive analysis |
 |-cxt | context-, flow- and field-sensitive analysis|
-|-flowbg | flow-sensitive analysis budget (number of value-flow edges traversal)|
-|-cxtbg | context-sensitive analysis budget (number of value-flow edges traversal)|
+|-flow-bg | flow-sensitive analysis budget (number of value-flow edges traversal)|
+|-cxt-bg | context-sensitive analysis budget (number of value-flow edges traversal)|
 |-max-cxt | k-limiting context-sensitivity|
 |-stat | print statistics|
 |-print-query-pts | print points-to|
