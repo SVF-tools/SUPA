@@ -14,7 +14,7 @@ dvf -dfs -query=all -flowbg=10000 example.bc
 ```
 * 3.2 Flow- and context-sensitive SUPA (querying points-to values of all the function pointers in a program)
 ```
-dvf -cxt -query=funptr -maxcxt=3 -flowbg=10000 -cxtbg=10000 example.bc
+dvf -cxt -query=funptr -max-cxt=3 -flowbg=10000 -cxtbg=10000 example.bc
 ```
 
 | Options       | Description           | 
@@ -24,7 +24,7 @@ dvf -cxt -query=funptr -maxcxt=3 -flowbg=10000 -cxtbg=10000 example.bc
 |-cxt | context-, flow- and field-sensitive analysis|
 |-flowbg | flow-sensitive analysis budget (number of value-flow edges traversal)|
 |-cxtbg | context-sensitive analysis budget (number of value-flow edges traversal)|
-|-maxcxt | k-limiting context-sensitivity|
+|-max-cxt | k-limiting context-sensitivity|
 |-stat | print statistics|
 |-print-query-pts | print points-to|
 
